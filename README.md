@@ -1,2 +1,2 @@
 # LoadXMLIgnoreCase
-LoadXML extension method that works with xml version 1.1
+Extention method of System.IO.Stream to load xml documents regardless of xml version 1.1.
