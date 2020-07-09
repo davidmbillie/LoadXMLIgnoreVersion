@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.5806" branch-rate="1" version="1.9" timestamp="1591984791" lines-covered="18" lines-valid="31" branches-covered="6" branches-valid="6">
+  <sources>
+    <source>C:\Program Files (x86)\Jenkins\workspace\Example_master\ExampleProvider\</source>
+  </sources>
+  <packages>
+    <package name="ExampleProvider" line-rate="0.5806" branch-rate="1" complexity="12">
+      <classes>
+        <class name="ExampleProvider.Formulas" filename="Formulas.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="CalculateCrash" signature="(System.Double,System.Double)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="9" hits="5" branch="False" />
+                <line number="10" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="28" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="1" branch="False" />
+                <line number="14" hits="4" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="50" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="1" branch="False" />
+                <line number="20" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="CalculateCoefficient" signature="(System.Double[])" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="16" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="32" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="29" hits="7" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="WeightSubCoeff" signature="(System.Double)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="36" hits="3" branch="False" />
+                <line number="37" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="5" branch="False" />
+            <line number="10" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="28" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="1" branch="False" />
+            <line number="14" hits="4" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="50" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="1" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="16" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="32" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="29" hits="7" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="37" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="ExampleProvider.Sizes.SizesDunk" filename="Sizes\SizesDunk.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ExampleProvider.Sizes.SizesMcD" filename="Sizes\SizesMcD.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".cctor" signature="()" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+                <line number="9" hits="0" branch="False" />
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="9" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ExampleProvider.Models.Beverage" filename="Models\Beverage.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Oz" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="6" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Example" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="7" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Int32,System.Int32)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="9" hits="1" branch="False" />
+                <line number="11" hits="1" branch="False" />
+                <line number="12" hits="1" branch="False" />
+                <line number="13" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="1" branch="False" />
+            <line number="7" hits="1" branch="False" />
+            <line number="9" hits="1" branch="False" />
+            <line number="11" hits="1" branch="False" />
+            <line number="12" hits="1" branch="False" />
+            <line number="13" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
